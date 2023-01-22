@@ -44,7 +44,7 @@ export default function Form() {
 			}
 		);
 
-		e.target.reset();
+		//ne.target.reset();
 		document.querySelector('#user_name').disabled = true;
 		document.querySelector('#user_email').disabled = true;
 		document.querySelector('#message').disabled = true;
@@ -60,7 +60,7 @@ export default function Form() {
 					type='text'
 					name='user_name'
 					id='user_name'
-					className='text-[2.6vh] border border-[black] py-2 px-4 w-full rounded drop-shadow-lg mb-5 md:text-[1.5vw] text-black bg-white disabled:opacity-75'
+					className='text-[2.6vh] border border-[black] py-2 px-4 w-full rounded drop-shadow-lg mb-5 md:text-[1.5vw] text-black bg-white disabled:opacity-50'
 					placeholder='Your name or nickname'
 					required
 				/>
@@ -68,7 +68,7 @@ export default function Form() {
 					type='email'
 					name='user_email'
 					id='user_email'
-					className='text-[2.6vh] border border-[black] py-2 px-4 w-full rounded drop-shadow-lg mb-5 md:text-[1.5vw] md:h-auto text-black bg-white disabled:opacity-75'
+					className='text-[2.6vh] border border-[black] py-2 px-4 w-full rounded drop-shadow-lg mb-5 md:text-[1.5vw] md:h-auto text-black bg-white disabled:opacity-50'
 					placeholder='Your e-mail'
 					required
 				/>
@@ -77,11 +77,11 @@ export default function Form() {
 					id='message'
 					cols='30'
 					rows='5'
-					className='text-[2.6vh] h-[30vh] border border-[black] py-2 px-4 w-full rounded drop-shadow-lg mb-4 md:h-auto md:text-[1.5vw] text-black bg-white disabled:opacity-75'
+					className='text-[2.6vh] h-[30vh] border border-[black] py-2 px-4 w-full rounded drop-shadow-lg mb-4 md:h-auto md:text-[1.5vw] text-black bg-white disabled:opacity-50'
 					placeholder='How I can help you?'
 					required
 				></textarea>
-				<button type='submit' id='submit' className='text-[2.6vh] p-3 drop-shadow-lg md:text-[1.5vw] bg-black leading-none btn disabled:opacity-75'>
+				<button type='submit' id='submit' className='text-[2.6vh] p-3 drop-shadow-lg md:text-[1.5vw] bg-black leading-none btn disabled:opacity-25'>
 					<i className='bi-envelope-at'></i> Send
 				</button>
 			</form>
