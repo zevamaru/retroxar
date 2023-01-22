@@ -29,6 +29,10 @@ nav {
 .active {
 	left: 0;
 }
+.colorized{
+	color: var(--active-color);
+	border-color: var(--active-color);
+}
 
 @media (min-width: 767px) {
 	body {

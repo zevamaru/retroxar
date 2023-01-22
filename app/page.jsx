@@ -97,15 +97,8 @@ export default function Home() {
 			<section id='contact' className='p-[2rem] relative min-h-screen md:p-[5rem] md:flex md:flex-col md:justify-end z-[2]'>
 				<div className='md:pr-[41%]'>
 					<h2 className='text-[5.1vh] md:text-[3.5vw] font-bold pb-5 leading-none pt-[12vh] md:pt-[0]'>Contact</h2>
-					<p className='text-[2.2vh] leading-relaxed md:text-[1.3vw]'>
-						You can contact me through the following form or by{' '}
-						<a href='mailto:contact@retrox.ar' className='bg-black p-1'>
-							e-mail
-						</a>
-						, it's your choice. Choose wisely.
-					</p>
+					<Form />
 				</div>
-				<Form />
 			</section>
 			<footer className='px-[2rem] relative md:px-[5rem] py-[2rem] z-[2] opacity-30'>
 				<p>
