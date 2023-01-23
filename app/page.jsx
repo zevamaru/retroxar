@@ -109,8 +109,8 @@ export default function Home() {
 					using{' '}
 					<a href='https://nextjs.org/' className='underline'>
 						Next.js
-					</a>{' '}
-					and
+					</a> 
+					and{' '}
 					<a href='https://tailwindcss.com/' className='underline'>
 						TailwindCSS
 					</a>

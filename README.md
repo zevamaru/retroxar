@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is my first app that I build with [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/), and I made it for learning porpuses.
+
+For the contact form I use [EmailJS](https://www.emailjs.com/), a JavaScript library that allows you to send emails client-side, without the need of any server-side techology. It was easy to set up and has a free plan of up to 200 emails per month.
+
+For deployment I used [Vercel](https://vercel.com/), and it was pretty straight forward, with a couple of clicks the application was online.
 
 ## Getting Started
 

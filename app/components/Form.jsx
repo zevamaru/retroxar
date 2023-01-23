@@ -22,7 +22,7 @@ const Sent = () => {
 	return(
 		<>
 			<p className='text-[2.2vh] leading-relaxed md:text-[1.3vw] p-[1.2rem] text-center border rounded colorized shadow-lg'>
-				Good choice. I will contact you, listen to the bell.
+				You've choosen well. I'll contact you, listen to the bell.
 			</p>
 		</>
 	);
@@ -44,7 +44,6 @@ export default function Form() {
 			}
 		);
 
-		//ne.target.reset();
 		document.querySelector('#user_name').disabled = true;
 		document.querySelector('#user_email').disabled = true;
 		document.querySelector('#message').disabled = true;
