@@ -3,7 +3,6 @@
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from 'react';
 
-
 const Send = () => {
 	return(
 		<>
